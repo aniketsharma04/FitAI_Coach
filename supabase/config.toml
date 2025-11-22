@@ -1,0 +1,14 @@
+project_id = "xroqgvupaafzmgztttkl"
+
+[auth]
+enable_signup = true
+site_url = "http://localhost:8080"
+
+[functions.generate-fitness-plan]
+verify_jwt = false
+
+[functions.text-to-speech]
+verify_jwt = false
+
+[functions.generate-image]
+verify_jwt = false
